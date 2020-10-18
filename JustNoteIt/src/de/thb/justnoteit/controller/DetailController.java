@@ -1,6 +1,6 @@
-package de.tbh.justnoteit.controller;
+package de.thb.justnoteit.controller;
 
-public class NotebookController {
+public class DetailController {
 
 }
 

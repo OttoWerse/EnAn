@@ -1,4 +1,4 @@
-package de.tbh.justnoteit.repository;
+package de.thb.justnoteit.repository;
 
 import java.util.ArrayList;
 import java.util.List;
