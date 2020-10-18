@@ -36,13 +36,14 @@ public class Notebook {
 
 	// Methods start
 
-	int getNumberOfNotes() {
-		// TODO: Implementation
-		return 0;
+	public int getNumberOfNotes() {
+		return notes.size();
 	}
 
-	Note getNote(int nr) {
-		// TODO: Implementation
+	public Note getNote(int nr) {
+		if (nr < this.getNumberOfNotes()) {
+			return notes.get(nr);			
+		}
 		return null;
 	}
 
